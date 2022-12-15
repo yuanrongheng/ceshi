@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:background="#FF5722"
         android:id="@+id/bbbb"
-        android:text="新的东西"/>
+        android:text="新的东西" />
     <TextView
         android:id="@+id/text_dashboard"
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textSize="20sp"
-        android:text="nkdlghosidhgosih"
+        android:text="这个好啊"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
