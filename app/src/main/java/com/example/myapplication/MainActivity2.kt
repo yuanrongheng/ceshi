@@ -14,7 +14,7 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
         bb=findViewById(R.id.bbbb)
         bb.setOnClickListener {
-            val intent =Intent(this@MainActivity2,MainActivity::class.java);
+            val intent =Intent(this@MainActivity2,MainActivity3::class.java);
             startActivity(intent)
         }
     }
