@@ -5,25 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#2196F3">
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FF5722"
         android:id="@+id/bbbb"
         android:text="新的东西" />
+
     <TextView
         android:id="@+id/text_dashboard"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="584dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:text="这个好啊"
         android:textAlignment="center"
         android:textSize="20sp"
-        android:text="这个好啊"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 </LinearLayout>
